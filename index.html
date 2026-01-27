@@ -2,49 +2,169 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Badal Warx Studio</title>
+  <title>Badal Warx</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #ff0080, #8000ff);
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #ff4da6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #1c1c1c;
+      margin: 12px 0;
+      padding: 18px;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+
+    small {
+      display: block;
+      margin-top: 6px;
+      color: #bbbbbb;
+      font-size: 14px;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .portfolio div {
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 10px;
+      font-size: 16px;
+      color: #aaa;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 30px;
+      background: #ff0080;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff4da6;
+    }
+
+    footer {
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
+
 <body>
 
-  <div class="container">
-    <h1>Badal Warx Studio</h1>
+<header>
+  <h1>Badal Warx</h1>
+  <p>Creative Designer & Website Builder</p>
+</header>
 
-    <div class="section">
-      <h2>About Me</h2>
-      <p>
-        Hi, I’m Badal. I help creators and small businesses grow online by designing
-        Instagram posts, logos, and simple websites.
-        I focus on clean design, fast delivery, and affordable pricing.
-      </p>
-    </div>
+<section>
+  <h2>About Me</h2>
+  <p>
+    Hi, I’m Badal 👋  
+    I design clean Instagram posts, logos, and simple websites that help creators
+    and small businesses grow online.
+  </p>
+</section>
 
-    <div class="section">
-      <h2>My Services</h2>
-      <ul>
-        <li>
-          📌 Instagram Post & Reel Design  
-          <br><small>Starting at ₹199</small>
-        </li>
+<section>
+  <h2>My Services</h2>
+  <ul>
+    <li>
+      📌 Instagram Post & Reel Design
+      <small>Starting at ₹199</small>
+    </li>
+    <li>
+      🎨 Logo Design
+      <small>Starting at ₹499</small>
+    </li>
+    <li>
+      🌐 One-Page Professional Website
+      <small>Starting at ₹999</small>
+    </li>
+  </ul>
+  <small>*Prices may vary based on requirements</small>
+</section>
 
-        <li>
-          🎨 Logo Design  
-          <br><small>Starting at ₹499</small>
-        </li>
-
-        <li>
-          🌐 Simple One-Page Website  
-          <br><small>Starting at ₹999</small>
-        </li>
-      </ul>
-      <p class="note">*Prices may vary based on work requirements</p>
-    </div>
-
-    <a class="insta-btn" href="https://instagram.com/badal.warx" target="_blank">
-      Contact me on Instagram
-    </a>
+<section>
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div>Instagram Post Sample</div>
+    <div>Logo Design Sample</div>
+    <div>Website Design Sample</div>
   </div>
+</section>
+
+<section>
+  <h2>Why Choose Me?</h2>
+  <ul>
+    <li>⚡ Fast Delivery</li>
+    <li>💰 Affordable Pricing</li>
+    <li>🎯 Clean & Modern Design</li>
+    <li>🤝 Friendly Support</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <a class="btn"
+     href="https://www.instagram.com/direct/t/17899415295198480/?text=Hi%20Badal%2C%20I%20want%20your%20services"
+     target="_blank">
+     DM me on Instagram
+  </a>
+</section>
+
+<footer>
+  © 2026 Badal Warx | All Rights Reserved
+</footer>
 
 </body>
 </html>
