@@ -47,3 +47,27 @@ p {
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(255, 0, 128, 0.7);
   }
+.section {
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.section h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin: 8px 0;
+  font-size: 1rem;
+}
