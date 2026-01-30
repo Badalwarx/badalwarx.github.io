@@ -71,3 +71,34 @@ small {
   width: 200px;
   border-radius: 12px; /* thoda smooth look */
 }
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero .tagline {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero .desc {
+  max-width: 500px;
+  margin: 15px auto;
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
