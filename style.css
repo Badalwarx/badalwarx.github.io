@@ -102,3 +102,16 @@ small {
   text-decoration: none;
   border-radius: 5px;
 }
+
+.project-image {
+  max-width: 900px;      /* website jaisa width */
+  margin: 40px auto;     /* center + space */
+  padding: 0 15px;
+}
+
+.project-image img {
+  width: 100%;           /* responsive */
+  height: auto;
+  border-radius: 12px;   /* modern look */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
