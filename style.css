@@ -1,4 +1,7 @@
-body {
+.logo{
+  width: 200px;
+  border-radius: 12px; /* thoda smooth look */
+}body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #0f172a, #020617);
@@ -62,4 +65,9 @@ small {
   max-width: 90%;
   display: block;
   margin: 20px auto;
+}
+
+.logo{
+  width: 200px;
+  border-radius: 12px; /* thoda smooth look */
 }
