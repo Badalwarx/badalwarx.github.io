@@ -1,11 +1,12 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f0f0f;
+  background: #0b0b0b;
   color: #ffffff;
   text-align: center;
 }
@@ -17,7 +18,7 @@ body {
 }
 
 .logo {
-  width: 140px;
+  width: 160px;
   margin-bottom: 20px;
 }
 
@@ -31,61 +32,12 @@ body {
   opacity: 0.9;
 }
 
-/* SECTIONS */
-section {
-  padding: 50px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #ff4da6;
-}
-
-/* LIST */
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  background: #1c1c1c;
-  margin: 12px 0;
-  padding: 18px;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-small {
-  display: block;
-  margin-top: 6px;
-  font-size: 14px;
-  color: #bbbbbb;
-}
-
-/* PORTFOLIO */
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-}
-
-.portfolio div {
-  background: #1c1c1c;
-  padding: 30px;
-  border-radius: 10px;
-  color: #aaaaaa;
-}
-
-/* BUTTON */
 .btn {
   display: inline-block;
   margin-top: 25px;
-  padding: 15px 30px;
+  padding: 14px 35px;
   background: #ff0080;
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 30px;
   font-size: 18px;
@@ -96,9 +48,80 @@ small {
   background: #ff4da6;
 }
 
+/* SECTIONS */
+.section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #ff4da6;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.section p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* SERVICES */
+.services {
+  list-style: none;
+}
+
+.services li {
+  background: #151515;
+  margin: 12px 0;
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+.services small {
+  display: block;
+  margin-top: 6px;
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* SAMPLES */
+.samples {
+  padding: 50px 20px;
+  background: #111;
+}
+
+.samples h2 {
+  color: #ff4da6;
+  margin-bottom: 30px;
+}
+
+.sample-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.sample-grid img {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  border-radius: 14px;
+}
+
 /* FOOTER */
 footer {
   padding: 20px;
   font-size: 14px;
-  color: #777;
+  opacity: 0.7;
+}
+
+/* NOTE */
+.note {
+  margin-top: 20px;
+  font-size: 13px;
+  opacity: 0.7;
 }
