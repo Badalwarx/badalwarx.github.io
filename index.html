@@ -4,186 +4,74 @@
   <meta charset="UTF-8">
   <title>Badal Warx</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: #ffffff;
-      text-align: center;
-    }
-
-    header {
-      padding: 40px 20px;
-      background: linear-gradient(135deg, #ff0080, #8000ff);
-    }
-
-    header h1 {
-      font-size: 38px;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2 {
-      font-size: 28px;
-      margin-bottom: 20px;
-      color: #ff4da6;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul li {
-      background: #1c1c1c;
-      margin: 12px 0;
-      padding: 18px;
-      border-radius: 10px;
-      font-size: 18px;
-    }
-
-    small {
-      display: block;
-      margin-top: 6px;
-      color: #bbbbbb;
-      font-size: 14px;
-    }
-
-    .portfolio {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-    }
-
-    .portfolio div {
-      background: #1c1c1c;
-      padding: 30px;
-      border-radius: 10px;
-      font-size: 16px;
-      color: #aaa;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 15px 30px;
-      background: #ff0080;
-      color: white;
-      text-decoration: none;
-      border-radius: 30px;
-      font-size: 18px;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #ff4da6;
-    }
-
-    footer {
-      padding: 20px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <h1>Badal Warx</h1>
-  <p>Creative Designer & Website Builder</p>
-</header>
+  <!-- HERO -->
+  <section class="hero">
+    <img src="logo.jpg" alt="Badal Warx Logo" class="logo">
+    <h1>Badal Warx</h1>
+    <p class="tagline">Creative Designer & Website Builder</p>
+    <a href="https://www.instagram.com/" class="btn">Contact Me</a>
+  </section>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    Hi, I’m Badal 👋  
-    I design clean Instagram posts, logos, and simple websites that help creators
-    and small businesses grow online.
-  </p>
-</section>
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Badal 👋  
+      I design clean Instagram posts, logos, and simple professional websites
+      that help creators and small businesses grow online.
+    </p>
+  </section>
 
-<section>
-  <h2>My Services</h2>
-  <ul>
-    <li>
-      📌 Instagram Post & Reel Design
-      <small>Starting at ₹199</small>
-    </li>
-    <li>
-      🎨 Logo Design
-      <small>Starting at ₹499</small>
-    </li>
-    <li>
-      🌐 One-Page Professional Website
-      <small>Starting at ₹999</small>
-    </li>
-  </ul>
-  <small>*Prices may vary based on requirements</small>
-</section>
+  <!-- SERVICES -->
+  <section>
+    <h2>My Services</h2>
+    <ul>
+      <li>📸 Instagram Post & Reel Design <small>Starting at ₹199</small></li>
+      <li>🎨 Logo Design <small>Starting at ₹499</small></li>
+      <li>🌐 One-Page Professional Website <small>Starting at ₹999</small></li>
+    </ul>
+    <small>*Prices may vary based on requirements</small>
+  </section>
 
-<section>
-  <h2>Portfolio</h2>
-  <div class="portfolio">
-    <div>Instagram Post Sample</div>
-    <div>Logo Design Sample</div>
-    <div>Website Design Sample</div>
-  </div>
-</section>
+  <!-- PORTFOLIO -->
+  <section>
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div>Instagram Post Sample</div>
+      <div>Logo Design Sample</div>
+      <div>Website Design Sample</div>
+    </div>8
+  </section>
 
-<section>
-  <h2>Why Choose Me?</h2>
-  <ul>
-    <li>⚡ Fast Delivery</li>
-    <li>💰 Affordable Pricing</li>
-    <li>🎯 Clean & Modern Design</li>
-    <li>🤝 Friendly Support</li>
-  </ul>
-</section>
+  <!-- WHY ME -->
+  <section>
+    <h2>Why Choose Me?</h2>
+    <ul>
+      <li>⚡ Fast Delivery</li>
+      <li>💰 Affordable Pricing</li>
+      <li>✨ Clean & Modern Design</li>
+      <li>🤝 Friendly Support</li>
+    </ul>
+  </section>
 
-<section>
-  <h2>Contact Me</h2>
-  <a class="btn"
-     href="https://www.instagram.com/direct/t/17899415295198480/?text=Hi%20Badal%2C%20I%20want%20your%20services"
-     target="_blank">
-     DM me on Instagram
-  </a>
-</section>
+  <!-- CONTACT -->
+  <section>
+    <h2>Contact Me</h2>
+    <a class="btn" target="_blank"
+      href="https://www.instagram.com/direct/t/1780941525198480">
+      DM me on Instagram
+    </a>
+  </section>
 
-<footer>
-  © 2026 Badal Warx | All Rights Reserved
-</footer>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Badal Warx | All Rights Reserved
+  </footer>
 
-  <img src="images/logo-sample-1.jpg" alt="Logo Sample">
-
-<p style="text-align:center; font-size:14px; opacity:0.7;">
-Sample designs for demonstration purpose only
-</p>
-
-<img src="logo.jpg" alt="Badal Warx Logo" class="logo">
-
-<section class="hero">
-  <h1>Badal Warx ⚡</h1>
-  <p class="tagline">Designs that stand out</p>
-
-  <p class="desc">
-    I design clean logos, Instagram posts and simple websites
-    for creators and small businesses.
-  </p>
-
-  <a href="https://instagram.com/" class="btn">Contact Me</a>
-</section>
 </body>
 </html>
