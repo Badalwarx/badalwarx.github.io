@@ -19,7 +19,6 @@ flex-direction:column;
 justify-content:center;
 align-items:flex-start;
 
-/* 🔥 40% text space */
 padding-left:30px;
 padding-right:20px;
 
@@ -33,17 +32,13 @@ rgba(5,11,24,0.1) 100%
 ),
 url("bg.jpg");
 
-/* 🔥 IMAGE CONTROL */
 background-size:cover;
 background-position:85% center;
 }
 
-/* TEXT */
-
 .hero h1{
 font-size:42px;
 font-weight:800;
-letter-spacing:1px;
 }
 
 .tagline{
@@ -51,10 +46,9 @@ font-size:17px;
 color:#cfcfcf;
 margin-top:10px;
 max-width:280px;
-line-height:1.4;
 }
 
-/* 🔥 GLOW BUTTON */
+/* BUTTON */
 
 .btn{
 margin-top:20px;
@@ -85,20 +79,34 @@ font-size:32px;
 margin-bottom:20px;
 }
 
-/* SERVICES */
+/* 🔥 SERVICE CARDS */
 
-.services{
-list-style:none;
-max-width:500px;
+.service-cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+max-width:1000px;
 margin:auto;
+margin-top:30px;
 }
 
-.services li{
-padding:14px;
-margin:10px 0;
-font-size:18px;
+.card{
 background:#0a1428;
-border-radius:10px;
+padding:25px;
+border-radius:15px;
+text-align:center;
+transition:0.3s;
+border:1px solid rgba(255,255,255,0.05);
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 40px rgba(0,0,0,0.6);
+}
+
+.icon i{
+font-size:32px;
+color:#3b82f6;
 }
 
 /* SAMPLES */
@@ -135,4 +143,4 @@ text-align:center;
 padding:30px;
 background:#02050c;
 color:#aaa;
-}
+  }
