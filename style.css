@@ -182,7 +182,10 @@ margin:auto;
 .sample-grid video{
 width:100%;
 border-radius:12px;
-}
+.sample-grid video{
+aspect-ratio:9/16;
+object-fit:cover;
+  }
 
 /* FOOTER */
 
