@@ -20,13 +20,13 @@ body{
   padding:40px;
 
   background:
-    linear-gradient(to right,rgba(5,11,24,0.7),rgba(5,11,24,0.1)),
+    linear-gradient(to right,rgba(5,11,24,0.8),rgba(5,11,24,0.2)),
     url("bg.jpg");
   background-size:cover;
   background-position:center;
 }
 
-/* LOGO NEON */
+/* LOGO */
 .hero h1{
   font-size:42px;
   font-weight:900;
@@ -43,7 +43,7 @@ body{
   opacity:0.8;
 }
 
-/* BUTTON FIX */
+/* BUTTON */
 .btn{
   margin-top:20px;
   padding:10px 22px;
@@ -52,7 +52,6 @@ body{
   text-decoration:none;
   color:white;
   display:inline-block;
-  width:auto;
   font-size:14px;
   transition:0.3s;
 }
@@ -76,7 +75,7 @@ body{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:30px;
+  gap:40px;
   flex-wrap:wrap;
   margin-top:30px;
 }
@@ -86,17 +85,19 @@ body{
   min-width:250px;
 }
 
+/* RIGHT SIDE IMAGE PERFECT */
 .about-img{
   flex:1;
-  text-align:right;
+  display:flex;
+  justify-content:flex-end;
 }
 
-/* RIGHT SIDE IMAGE */
 .about-img img{
-  width:200px;
+  width:280px;
+  max-width:100%;
   border-radius:15px;
-  opacity:0.9;
-  box-shadow:0 10px 40px rgba(0,0,0,0.6);
+  opacity:0.95;
+  box-shadow:0 0 25px rgba(0,170,255,0.4);
 }
 
 /* STATS */
@@ -105,6 +106,7 @@ body{
   justify-content:center;
   gap:15px;
   margin-top:20px;
+  flex-wrap:wrap;
 }
 
 .stats div{
@@ -145,6 +147,17 @@ body{
 }
 
 /* SAMPLES */
+.samples{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.samples h2{
+  margin-bottom:30px;
+  font-size:22px;
+}
+
+/* GRID */
 .sample-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
@@ -153,6 +166,7 @@ body{
   margin:auto;
 }
 
+/* VIDEO FIX */
 .sample-grid video{
   width:100%;
   height:250px;
@@ -179,7 +193,23 @@ footer{
   background:#02050c;
 }
 
-/* ANIMATIONS */
+/* NEON HEADINGS 🔥 */
+.neon-green{
+  color:#00ff99;
+  text-shadow:0 0 5px #00ff99,0 0 10px #00ff99,0 0 20px #00ff99;
+}
+
+.neon-yellow{
+  color:#ffd700;
+  text-shadow:0 0 5px #ffd700,0 0 10px #ffd700,0 0 20px #ffd700;
+}
+
+.neon-red{
+  color:#ff3b3b;
+  text-shadow:0 0 5px #ff3b3b,0 0 10px #ff3b3b,0 0 20px #ff3b3b;
+}
+
+/* ANIMATION */
 .hero h1{
   animation:fadeUp 1s ease;
 }
@@ -196,7 +226,6 @@ footer{
   animation:fadeUp 1s ease;
 }
 
-/* KEYFRAMES */
 @keyframes fadeUp{
   from{
     opacity:0;
@@ -221,57 +250,7 @@ footer{
   }
 
   .about-img{
-    text-align:center;
+    justify-content:center;
   }
 
-}
-
-/* ABOUT IMAGE FIX (RIGHT SIDE PROPER) */
-.about-img img{
-  width:280px;
-  max-width:100%;
-  border-radius:15px;
-  opacity:0.95;
-  box-shadow:0 0 25px rgba(0,170,255,0.4);
-}
-
-/* SAMPLES SECTION SPACING FIX */
-.samples{
-  padding:60px 20px;
-  text-align:center;
-}
-
-.samples h2{
-  margin-bottom:30px;
-  font-size:22px;
-}
-
-/* VIDEO GAP FIX */
-.sample-grid{
-  margin-top:20px;
-}
-
-/* NEON EFFECTS 🔥 */
-.neon-green{
-  color:#00ff99;
-  text-shadow:
-    0 0 5px #00ff99,
-    0 0 10px #00ff99,
-    0 0 20px #00ff99;
-}
-
-.neon-yellow{
-  color:#ffd700;
-  text-shadow:
-    0 0 5px #ffd700,
-    0 0 10px #ffd700,
-    0 0 20px #ffd700;
-}
-
-.neon-red{
-  color:#ff3b3b;
-  text-shadow:
-    0 0 5px #ff3b3b,
-    0 0 10px #ff3b3b,
-    0 0 20px #ff3b3b;
 }
