@@ -225,3 +225,53 @@ footer{
   }
 
 }
+
+/* ABOUT IMAGE FIX (RIGHT SIDE PROPER) */
+.about-img img{
+  width:280px;
+  max-width:100%;
+  border-radius:15px;
+  opacity:0.95;
+  box-shadow:0 0 25px rgba(0,170,255,0.4);
+}
+
+/* SAMPLES SECTION SPACING FIX */
+.samples{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.samples h2{
+  margin-bottom:30px;
+  font-size:22px;
+}
+
+/* VIDEO GAP FIX */
+.sample-grid{
+  margin-top:20px;
+}
+
+/* NEON EFFECTS 🔥 */
+.neon-green{
+  color:#00ff99;
+  text-shadow:
+    0 0 5px #00ff99,
+    0 0 10px #00ff99,
+    0 0 20px #00ff99;
+}
+
+.neon-yellow{
+  color:#ffd700;
+  text-shadow:
+    0 0 5px #ffd700,
+    0 0 10px #ffd700,
+    0 0 20px #ffd700;
+}
+
+.neon-red{
+  color:#ff3b3b;
+  text-shadow:
+    0 0 5px #ff3b3b,
+    0 0 10px #ff3b3b,
+    0 0 20px #ff3b3b;
+}
