@@ -20,7 +20,7 @@ body{
   padding:40px;
 
   background:
-    linear-gradient(to right,rgba(5,11,24,0.8),rgba(5,11,24,0.2)),
+    linear-gradient(to right,rgba(5,11,24,0.85),rgba(5,11,24,0.2)),
     url("bg.jpg");
   background-size:cover;
   background-position:center;
@@ -51,7 +51,6 @@ body{
   border-radius:30px;
   text-decoration:none;
   color:white;
-  display:inline-block;
   font-size:14px;
   transition:0.3s;
 }
@@ -62,7 +61,7 @@ body{
 
 /* SECTION */
 .section{
-  padding:60px 20px;
+  padding:70px 20px;
   text-align:center;
 }
 
@@ -76,34 +75,43 @@ body{
   align-items:center;
   justify-content:space-between;
   gap:40px;
-  flex-wrap:wrap;
   margin-top:30px;
 }
 
 .about-text{
   flex:1;
   min-width:250px;
+  text-align:left;
 }
 
-/* RIGHT SIDE IMAGE PERFECT */
+/* IMAGE FIX (MAIN ISSUE) */
 .about-img{
   flex:1;
   display:flex;
-  justify-content:flex-end;
+  justify-content:center;
 }
 
 .about-img img{
-  width:280px;
-  max-width:100%;
+  width:260px;
+  height:auto;
   border-radius:15px;
-  opacity:0.95;
-  box-shadow:0 0 25px rgba(0,170,255,0.4);
+  object-fit:cover;
+
+  /* 🔥 glow */
+  box-shadow:
+    0 0 20px rgba(0,170,255,0.6),
+    0 0 40px rgba(0,170,255,0.3);
+
+  transition:0.3s;
+}
+
+.about-img img:hover{
+  transform:scale(1.05);
 }
 
 /* STATS */
 .stats{
   display:flex;
-  justify-content:center;
   gap:15px;
   margin-top:20px;
   flex-wrap:wrap;
@@ -148,12 +156,13 @@ body{
 
 /* SAMPLES */
 .samples{
-  padding:60px 20px;
+  padding:70px 20px;
   text-align:center;
 }
 
+/* 🔥 HEADING FIX (IMPORTANT) */
 .samples h2{
-  margin-bottom:30px;
+  margin-bottom:35px;
   font-size:22px;
 }
 
@@ -166,7 +175,7 @@ body{
   margin:auto;
 }
 
-/* VIDEO FIX */
+/* VIDEO */
 .sample-grid video{
   width:100%;
   height:250px;
@@ -193,7 +202,7 @@ footer{
   background:#02050c;
 }
 
-/* NEON HEADINGS 🔥 */
+/* 🔥 NEON TEXT */
 .neon-green{
   color:#00ff99;
   text-shadow:0 0 5px #00ff99,0 0 10px #00ff99,0 0 20px #00ff99;
@@ -249,8 +258,12 @@ footer{
     text-align:center;
   }
 
+  .about-text{
+    text-align:center;
+  }
+
   .about-img{
     justify-content:center;
   }
 
-}
+  }
